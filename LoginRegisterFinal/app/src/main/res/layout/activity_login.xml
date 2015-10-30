@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+android:orientation="vertical"
+    android:padding="10dp"
+android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="188dp"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="265dp"
+            android:layout_height="159dp"
+            android:id="@+id/imageView"
+            android:paddingTop="0dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@mipmap/yourgym"
+     />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <EditText
+            android:layout_width="248dp"
+            android:layout_height="33dp"
+            android:id="@+id/etUsername"
+            android:layout_margin="10dp"
+            android:background="#026baa"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:hint="   Username"
+            android:textSize="16dp"
+            android:textIsSelectable="false"
+            android:layout_weight="0.06"
+            android:layout_gravity="center"
+            android:textStyle="italic"/>
+
+        <EditText
+            android:layout_width="248dp"
+            android:layout_height="33dp"
+            android:inputType="textPassword"
+            android:layout_margin="2dp"
+
+            android:id="@+id/etPassword"
+            android:background="#026baa"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:hint=" Password"
+            android:layout_weight="0.06"
+            android:paddingTop="-20dp"
+            android:layout_gravity="center"
+            android:textStyle="italic"
+            android:textSize="16dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:id="@+id/tvRegisterLink"
+                android:textSize="16dp" />
+
+            <Button
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:id="@+id/bLogin2"
+            android:text="Login"
+            android:textStyle="bold"
+            android:background="#000101"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:layout_weight="0.23"
+               />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

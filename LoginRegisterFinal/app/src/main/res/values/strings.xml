@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Your-Gym</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Register</string>
+    <string name="image_view">Image View</string>
+
+    <string-array name="str_array_sectionsTitle">
+        <item>Inicio</item>
+        <item>Rutina</item>
+        <item>Dieta</item>
+        <item>Instructor</item>
+        <item>Servicios</item>
+        <item>Pagos</item>
+    </string-array>
+
+
+</resources>

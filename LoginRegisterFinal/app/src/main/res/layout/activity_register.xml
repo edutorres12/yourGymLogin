@@ -1,0 +1,84 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gdfgdf">
+
+        <ImageView
+
+            android:layout_gravity="center_horizontal"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/imageToUpload"
+            android:background="@drawable/rounded_corner_black" />
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/etUsername"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_corner_blue"
+            android:textColor="#ffffff"
+            android:hint="Username"
+            android:textColorHint="#ffffff"
+            android:layout_marginTop="0dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/etName"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_corner_blue"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:hint="Name" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/etAge"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_corner_blue"
+            android:textColor="#ffffff"
+            android:hint="Age"
+            android:textColorHint="#ffffff" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:inputType="textPassword"
+            android:layout_margin="10dp"
+
+            android:id="@+id/etPassword"
+            android:background="@drawable/rounded_corner_blue"
+            android:textColor="#ffffff"
+            android:hint="Password"
+            android:textColorHint="#ffffff" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bRegister"
+            android:text="Register"
+            android:background="@drawable/rounded_corner_black"
+
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
